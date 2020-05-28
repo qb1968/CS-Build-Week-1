@@ -1,3 +1,7 @@
+Project deployed using Zeit:https://csbw1-m0fcvo1z9.now.sh/
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

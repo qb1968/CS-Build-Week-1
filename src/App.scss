@@ -8,6 +8,8 @@ $cell-size: 15px;
 $h1-color: black;
 
 h1{
+  display:flex;
+  justify-content: center;
   color: $h1-color;
 }
 body {
@@ -16,19 +18,16 @@ body {
   text-align: center;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding:10px;
-  width: 80%;
-  margin: auto;
+
+
 }
 
-ol {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
- }   
+.App {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+}
 
-li {
-     width:20%;
- }
 
  a {
      color:black;
@@ -37,9 +36,19 @@ li {
 .about  {
     align-items: center;
     font-weight:bold;
-    font: color black;
-    
+    width: 40%;
 }
+.mine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rules {
+  align-items: center;
+  font-weight:bold;
+  width: 50%;
+}
+
  #size{
 border-radius: 2px;
 border: thick;
@@ -48,7 +57,7 @@ border: thick;
 
 .gameGrid{
 display: flex;
-justify-content: center;
+justify-content:center;
 padding: 10px;
 align-items: center;
 }

@@ -36,17 +36,20 @@ body {
 .about  {
     align-items: center;
     font-weight:bold;
-    width: 40%;
+    width: 50%;
+    margin-right: 5px;
 }
 .mine {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0 auto;
 }
 .rules {
-  align-items: center;
+  margin:auto;
   font-weight:bold;
   width: 50%;
+  margin-left: 5px;
 }
 
  #size{
@@ -78,3 +81,6 @@ button {
   }
 }
 
+ol {
+  text-align: start;
+}
